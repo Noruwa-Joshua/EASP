@@ -19,8 +19,8 @@ app.use("/api/upload", uploadRoute);
 app.use("/api/user", screeningRoutes);
 app.use("/api/admin", adminRoutes);
 
-app.get("/check",()=>{
-  return resizeBy.status(200).json({
+app.get("/check",(req,res)=>{
+  return res.status(200).json({
     status:true
   })
 });
