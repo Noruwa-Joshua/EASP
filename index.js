@@ -19,6 +19,12 @@ app.use("/api/upload", uploadRoute);
 app.use("/api/user", screeningRoutes);
 app.use("/api/admin", adminRoutes);
 
+app.get("/check",()=>{
+  return resizeBy.status(200).json({
+    status:true
+  })
+});
+
 const main = async () => {
   try {
     await sequelize.sync({ force: true });
