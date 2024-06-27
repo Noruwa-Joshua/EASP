@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #57068c;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link {
+    color: white;
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+
+.horizontal-line-container {
+    display: block;
+    justify-content: center;
+  }
+  
+.horizontal-line {
+    width: 100%;  
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 1px; 
+    background-color: #5E245A; 
+}
+.horizontal-line2 {
+    width: 100%; 
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 3px; 
+    background-color: #5E245A; 
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.profile-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.status-header {
+    background-color: purple;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+/* .progress-steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-number {
+    display: block;
+    background-color: #e0e0e0;
+    color: purple;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.step.completed .step-number {
+    background-color: lightblue;
+    color: #57068c;
+}
+.step.completed #mark {
+    background-color: rgb(47, 158, 195);
+    color: #57068c;
+}
+
+.step-name {
+    margin-top: 10px;
+    color: #57068c;
+} */
+
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status.approved {
+    color: green;
+}
+
+.status.rejected {
+    color: red;
+}
+
+.view-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1882a9;
+    color: white;
+    cursor: pointer;
+}

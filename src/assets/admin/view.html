@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospective Student Details</title>
+    <link rel="stylesheet" href="../css/view.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <!-- <link rel="stylesheet" href="../css/admin.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="../img/logo.png" alt="Logo">
+            <div class="right">
+                <a href="#mail" class="icon-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#notifications" class="icon-link">
+                    <i class="fas fa-bell"></i>
+                </a>
+                <a href="#profile" class="profile-link">
+                    <img src="../img/Mart-5.jpg" alt="Profile Icon" class="profile-icon">
+                    <span class="profile-name">Are Martins</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="horizontal-line-container">
+            <div class="horizontal-line"></div>
+            <div class="horizontal-line2"></div>
+        </div>
+
+        <div class="pi">
+            <h2>Prospective Student Details</h2>
+            <div class="main">
+                <img src="../img/Mart-5.jpg" alt="">
+                <div class="info">
+                    <h2>Efosa Clash of Clan</h2>
+                    <div class="dep">
+                        <div class="class">
+                            <h5>Email</h5>
+                            <h4>someone@gmail.com</h4>
+                        </div>
+                        <div class="class">
+                            <h5>Faculty</h5>
+                            <h4>LAW</h4>
+                        </div>
+                        <div class="class">
+                            <h5>Course</h5>
+                            <h4>social engineering</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="application-form">
+            <form action="submit_form.php" method="post" enctype="multipart/form-data">
+                <div class="p2">
+                    <div class="upload-group">
+                        <label for="application-form">Printed application form</label><br>
+                        <button type="button">View</button>
+                        <select name="accept_application_form">
+                            <option value="accept">Accept</option>
+                            <option value="reject">Reject</option>
+                        </select>
+                    </div>
+                    
+                    <div class="upload-group">
+                        <label for="receipt">Photocopy of receipt</label><br>
+                        <button type="button">View</button>
+                        <select name="accept_application_form">
+                            <option value="accept">Accept</option>
+                            <option value="reject">Reject</option>
+                        </select>
+                    </div>
+                    <div class="upload-group">
+                        <label for="clergy-referral">Referral letter from a clergy</label><br>
+                        <button type="button">View</button>
+                        <select name="accept_application_form">
+                            <option value="accept">Accept</option>
+                            <option value="reject">Reject</option>
+                        </select>
+                    </div>
+                    <div class="upload-group">
+                        <label for="civil-servant-referral">Referral letter from a civil servant not below level 12</label><br>
+                        <button type="button">View</button>
+                        <select name="accept_application_form">
+                            <option value="accept">Accept</option>
+                            <option value="reject">Reject</option>
+                        </select>
+                    </div>
+                    <div class="upload-group">
+                        <label for="credentials">Original copies of credentials (at not more than one sitting)</label><br>
+                        <button type="button">View</button>
+                        <select name="accept_application_form">
+                            <option value="accept">Accept</option>
+                            <option value="reject">Reject</option>
+                        </select>
+                    </div>
+                    <div class="upload-group">
+                        <label for="utme-result">UTME result print out with picture</label><br>
+                        <button type="button">View</button>
+                        <select name="accept_application_form">
+                            <option value="accept">Accept</option>
+                            <option value="reject">Reject</option>
+                        </select>
+                    </div>
+                    <div class="upload-group">
+                        <label for="birth-certificate">Photocopy of birth certificate/Sworn Declaration of age</label><br>
+                        <button type="button">View</button>
+                        <select name="accept_application_form">
+                            <option value="accept">Accept</option>
+                            <option value="reject">Reject</option>
+                        </select>
+                    </div>
+                </div>
+
+                <h3>O’Level Result (WAEC/NECO)</h3>
+                <div class="p3">
+                    <div class="subject-group">
+                        <input type="text" name="subject1" value="Use of English" readonly>
+                        <input type="text" name="grade1" value="B2" readonly>
+                    </div>
+                    <div class="subject-group">
+                        <input type="text" name="subject2" value="Mathematics" readonly>
+                        <input type="text" name="grade2" value="B2" readonly>
+                    </div>
+                    <div class="subject-group">
+                        <input type="text" name="subject3" value="Chemistry" readonly>
+                        <input type="text" name="grade3" value="B2" readonly>
+                    </div>
+                    <div class="subject-group">
+                        <input type="text" name="subject4" value="Biology" readonly>
+                        <input type="text" name="grade4" value="B2" readonly>
+                    </div>
+                    <div class="subject-group">
+                        <input type="text" name="subject5" value="Agriculture" readonly>
+                        <input type="text" name="grade5" value="B2" readonly>
+                    </div>
+                    <div id="result">
+                        <label for="total-score-olevel">GRADE POINT SCORE</label>
+                        <input type="number" id="total-score-olevel" value="33" name="total_score_olevel" readonly>
+                    </div>
+                </div>
+
+                <h3>UTME Result</h3>
+                <div class="p4">
+                    <div class="subject-group">
+                        <input type="text" name="subject_utme1" value="Use of English" readonly>
+                        <input type="number" name="score_utme1" value="67" readonly>
+                    </div>
+                    <div class="subject-group">
+                        <input type="text" name="subject_utme2" value="Mathematics" readonly>
+                        <input type="number" name="score_utme2" value="67" readonly>
+                    </div>
+                    <div class="subject-group">
+                        <input type="text" name="subject_utme3" value="Chemistry" readonly>
+                        <input type="number" name="score_utme3" value="67" readonly>
+                    </div>
+                    <div class="subject-group">
+                        <input type="text" name="subject_utme4" value="Biology" readonly>
+                        <input type="number" name="score_utme4" value="67" readonly>
+                    </div>
+                    
+                    <div id="result">
+                        <label for="total-score-utme">TOTAL SCORE FOR UTME</label>
+                        <input type="number" id="total-score-utme" value="267" readonly>
+                    </div>
+                    <div id="result">
+                        <label for="weight-of-utme-score">WEIGHT OF UTME SCORE</label>
+                        <input type="number" id="weight-of-utme-score" value="31.1" readonly>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

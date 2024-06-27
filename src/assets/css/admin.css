@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.navbar img{
+    height: 30px;
+    width: auto;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link, .profile-link {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.icon-link i {
+    font-size: 18px;
+    color: grey;
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+/* Adjust spacing if needed */
+.icon-link + .icon-link, .icon-link + .profile-link {
+    margin-left: 20px;
+}
+.pro{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.pi{
+    background-color: purple;
+    margin: 10px 50px;
+    height: 40vh;
+}
+.main{
+    display: flex;
+    margin: 10px auto;
+    padding: 30px auto;
+    align-items: center;
+}
+
+.pi h2{
+    margin: 20px 50px;
+    color: white;
+    padding-top: 20px;
+}
+.pi img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: 38px;
+}
+
+.pi .info{
+    margin-left: 0px;
+}
+.dep{
+    display: flex;
+}
+
+.dep .class{
+    margin-left: 0px;
+}
+
+.dep .class h5, h4{
+    margin: 10px 50px;
+}
+
+.dep .class h5{
+    color: gray;
+}
+.dep .class h4{
+    color: white;
+}
+
+.upload-group{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px;
+}
+
+button{
+    padding: 10px;
+    width: 50px;
+}
+
+.upload-group label{
+    width: 200%;
+    font-size: 14px;
+}

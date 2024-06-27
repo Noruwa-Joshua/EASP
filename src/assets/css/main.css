@@ -1,0 +1,164 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding:5px 10px;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin: auto 40px;
+}
+
+.navbar img{
+    height: 30px;
+    width: auto;
+}
+
+.horizontal-line-container {
+    display: block;
+    justify-content: center;
+  }
+  
+.horizontal-line {
+    width: 100%;  
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 1px; 
+    background-color: #5E245A; 
+}
+.horizontal-line2 {
+    width: 100%; 
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 3px; 
+    background-color: #5E245A; 
+}
+
+.application-form .pi{
+    display: grid;
+    margin: auto 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 100%;
+    background-color: #D5D7DE;
+    padding: 50px;
+}
+
+h3{
+    margin: auto 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.application-form .pi input{
+    padding: 10px;
+    border: none;
+}
+
+.application-form .p2{
+    display: grid;
+    margin: auto 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 100%;
+    background-color: #D5D7DE;
+    padding: 50px;
+}
+.application-form .p2 input{
+    padding: 10px;
+    border: none;
+    /* background-color: #4DB5F0; */
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subject-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .application-form .p3{
+    display: grid;
+    margin: auto 50px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    max-width: 100%;
+    background-color: #D5D7DE;
+    padding: 50px;
+}
+
+.application-form .p3 input, select{
+    padding: 10px;
+    border: none;
+    width: 20%;
+} */
+
+#result{
+    margin-left: 65%;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#result input{
+    width: 60px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.application-form .p4, .p3{
+    display: grid;
+    margin: auto 50px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    max-width: 100%;
+    background-color: #D5D7DE;
+    padding: 50px;
+}
+.application-form .p4 input, select{
+    padding: 10px;
+    border: none;
+    width: 40%;
+}
+.application-form .p3 input, select{
+    padding: 10px;
+    border: none;
+    width: 40%;
+}
+#p{
+    display: flex;
+}
+#p p{
+    margin: 10px 37%;
+    margin-left: 73px;
+}
+p{
+    margin: auto 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 15px; 
+}
+button{
+    padding: 10px;
+    background-color: #4DB5F0;
+    border: none;
+    width: 120px;
+    color: white;
+    margin: auto 50px;
+    margin-bottom: 80px;
+    border-radius: 2px;
+}
+#info{
+    margin-left: 87.5%;
+    margin-top: 30px;
+}

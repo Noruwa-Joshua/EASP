@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.navbar img{
+    height: 30px;
+    width: auto;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link {
+    color: white;
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.profile-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.screening-dashboard {
+    background-color: purple;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.screening-dashboard h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-left: -3px;
+}
+
+.filter-sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.horizontal-line3 {
+    background-color: white; 
+}
+
+h3{
+    color: white;
+}
+
+.filter-sort input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+}
+
+.filter-sort .sort-by {
+    display: flex;
+    align-items: center;
+}
+
+.sort-by span {
+    margin-right: 10px;
+}
+
+.sort-by select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.table-container {
+    /* background-color: grey; */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    /* border-bottom: 1px solid #ddd; */
+    text-align: left;
+}
+
+th {
+    /* background-color: grey; */
+}
+
+.view-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
